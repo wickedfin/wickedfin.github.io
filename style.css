@@ -1,0 +1,30 @@
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    line-height: 1.8    
+}
+
+footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer span a img {
+    width: 30px;
+    margin-left: 15px;
+}
+
+video {
+    width: 500px;
+    height: 300px;
+}
