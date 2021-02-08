@@ -8,7 +8,6 @@
         <meta name="description" content="홈페이지 개발 테스트 중입니다.">
         <meta name="keywords" content="vim,python,molecularsimulation,webprogram">
         <link rel="stylesheet" href="style.css">
-        {% comment %} <link href="extern.html" rel="import"> {% endcomment %}
     </head>
     <body>
         <header>
@@ -21,8 +20,8 @@
             <div class="tip" markdown="1">
 
                 Have **fun!**
-                <embed src="test.md">
                 {% include_relative test.md %}
+                
             </div>
             <span>
                 <video src="./contents/video/Molecular - 47452.mp4" autoplay>브라우저가 비디오를 지원하지 않습니다.</video>
